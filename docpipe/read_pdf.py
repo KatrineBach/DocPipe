@@ -1,6 +1,6 @@
 import pdfplumber
 
-PDF_PATH = "samples/invoice_01.pdf"
+PDF_PATH = "samples/invoice_02.pdf"
 
 def main():
     with pdfplumber.open(PDF_PATH) as pdf:
